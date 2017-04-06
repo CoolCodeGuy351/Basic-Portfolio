@@ -178,6 +178,11 @@ form{
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
+.message-form{
+    width: 500px;
+    height: 250px;
+}
+
 .footer{
     height: 50px;
     width: 100%;
