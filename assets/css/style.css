@@ -184,7 +184,7 @@ form{
 }
 
 .footer{
-    height: 50px;
+    height: 85px;
     width: 100%;
     background-color: #666;
     margin-top: 15%;
@@ -199,5 +199,109 @@ form{
     margin-left: auto;
     text-align: center;
     margin-bottom: 0;
+    
+}
+
+
+/******** Media Queries ************/
+
+
+
+@media screen and (max-width: 980px) {
+    .main-section-container{
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+}
+    
+    .left-container{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    border: solid 1px #4b4c4f;
+    margin-left: 3%
+}
+    
+    .social-container{
+    width 30%;
+    float: right;
+    background-color: white;
+    border: solid 1px #4b4c4f;
+    margin-right: 3%;
+}
+    
+    
+}
+
+/** @855 px width SOCIAL CONTAINER FLOAT GETS PUSHED TO BELOW DIV ***/
+
+@media screen and (max-width: 865px) {
+    
+    .main-section-container{
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+}
+    
+    .left-container{
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    border: solid 1px #4b4c4f;
+    margin-left: 5%;
+    
+}
+    
+    .social-container{
+    width: 90%;
+    min-height: 100px;
+    float: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    background-color: white;
+    display: inline-block;
+    border: solid 1px #4b4c4f;
+    text-align: center;
+    
+}
+ 
+    #social-con{
+    margin: auto;
+    width: 50%;
+    padding-right: 10%;
+    
+    }
+    
+   .nav-content-div{
+    width: 100%;
+    margin: 0 auto;
+}
+    
+    .nav-link{
+        margin-bottom: 20px;
+        
+    }
+  
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    
+    .image-div{
+    display: inline-block;
+    height: 30%;
+    width: 80%;
+    margin: 3% auto;
+    position: relative;
+}
+    .nav-link{
+        color:black;
+        
+    }
     
 }
